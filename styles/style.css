@@ -60,7 +60,7 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 10px 10px 100px;
+  margin: 10px 10px 120px;
   padding: 20px 0;
 }
 
@@ -141,4 +141,47 @@ span {
 }
 .autor-info a:hover {
   text-decoration: underline;
+}
+
+.country-container {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 45px;
+  background-color: rgb(240, 240, 240);
+}
+.country {
+  display: flex;
+  justify-content: left;
+  margin-left: 30px;
+  font-size: 1.4rem;
+  color: grey;
+  letter-spacing: 0.3px;
+}
+
+.extra-options-container {
+  display: flex;
+  height: 45px;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.4rem;
+  background-color: rgb(240, 240, 240);
+}
+.extra-options-container a {
+  text-decoration: none;
+  color: rgb(125, 125, 125);
+}
+.extra-options-container a:hover {
+  text-decoration: underline;
+}
+
+.ctn {
+  display: flex;
+  flex-direction: row;
+}
+.left div {
+  margin-left: 35px;
+}
+.right div {
+  margin-right: 35px;
 }
