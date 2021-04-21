@@ -52,3 +52,93 @@ html {
   background-size: cover;
   border-radius: 30px;
 }
+
+/* Main */
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 10px 100px;
+  padding: 20px 0;
+}
+
+.buscador-container {
+  margin-top: 30px;
+}
+
+.buscador-container input {
+  width: 550px;
+  height: 40px;
+  border-radius: 15px;
+  border-collapse: collapse;
+  border: 1px solid rgb(190, 190, 190);
+}
+
+span {
+  width: 50px;
+}
+
+.lupa {
+  width: 35px;
+  margin-top: 10px;
+}
+
+.btn-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 26px;
+}
+
+.btn {
+  display: flex;
+  width: 180px;
+  height: 40px;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.4rem;
+  background-color: rgb(248, 248, 248);
+  border-radius: 8px;
+}
+
+.btn-search {
+  margin-right: 5px;
+}
+
+.btn-lucky {
+  margin-left: 5px;
+}
+
+.btn p {
+  font-weight: 500;
+  color: rgb(58, 58, 58);
+}
+
+.covid-info {
+  margin-top: 25px;
+  font-size: 1.25rem;
+  letter-spacing: 0.3px;
+}
+.covid-info a {
+  margin-left: 5px;
+  text-decoration: none;
+}
+.covid-info a:hover {
+  text-decoration: underline;
+}
+
+.autor-info {
+  margin-top: 25px;
+  font-size: 1.25rem;
+  letter-spacing: 0.3px;
+}
+.autor-info a {
+  margin-left: 5px;
+  text-decoration: none;
+}
+.autor-info a:hover {
+  text-decoration: underline;
+}
