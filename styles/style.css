@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-family: sans-serif;
+  font-size: 62.5%;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  margin-top: 10px;
+  padding-right: 10px;
+  flex-direction: row;
+  align-self: center;
+  justify-content: flex-end;
+  font-size: 1.3rem;
+}
+
+.header div {
+  margin-left: 30px;
+}
+
+.header-adress {
+  padding-top: 10px;
+}
+
+.header-adress a {
+  color: rgb(45, 45, 45);
+  text-decoration: none;
+}
+.header-adress a:hover {
+  text-decoration: underline;
+}
+
+.menu-google {
+  background-image: url("../assets/menu-google.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 30px;
+}
+
+.foto-perfil {
+  width: 35px;
+  height: 35px;
+  background-image: url("../assets/foto2.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 30px;
+}
