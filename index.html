@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="./styles/style.css" />
   </head>
   <body>
-    <header class="header">
+    <header>
       <div class="header-adress">
         <a href="https://mail.google.com">Gmail</a>
       </div>
@@ -29,21 +29,21 @@
           class="logo-google"
         />
       </div>
-      <div class="buscador-container">
-        <label for="search">
-          <input type="text" name="search" id="search" /><span
-            ><img class="lupa" src="./assets/lupa.png" alt="Lupa"
-          /></span>
-        </label>
-      </div>
-      <div class="btn-container">
-        <div class="btn btn-search">
-          <p>Buscar con Google</p>
+      <section class="main-input">
+        <div class="main-input-container">
+          <span class="lupa"></span>
+          <input type="text" placeholder="Buscar en Google" />
+          <a class="voice-icon" href=""></a>
         </div>
-        <div class="btn btn-lucky">
-          <p>Me siento con suerte</p>
+      </section>
+      <section class="btn-container">
+        <div class="btn">
+          <button>Buscar con Google</button>
         </div>
-      </div>
+        <div class="btn">
+          <button>Me siento con suerte</button>
+        </div>
+      </section>
       <div class="covid-info">
         <p>
           Mantente informado sobre la vacuna contra el COVID-19
@@ -61,52 +61,51 @@
     </main>
 
     <footer>
-      <div class="country-container">
+      <div class="row country-container">
         <div class="country">Perú</div>
       </div>
-      <hr />
-      <div class="extra-options-container">
-        <div class="ctn left">
-          <div>
+      <div class="row more-info-container">
+        <ul class="footer-left">
+          <li>
             <a
               href="https://about.google/?utm_source=google-PE&utm_medium=referral&utm_campaign=hp-footer&fg=1"
               >Sobre Google</a
             >
-          </div>
-          <div>
+          </li>
+          <li>
             <a
               href="https://ads.google.com/intl/es-419_pe/home/?subid=ww-ww-et-g-awa-a-g_hpafoot1_1!o2&utm_source=google.com&utm_medium=referral&utm_campaign=google_hpafooter&fg=1"
               >Publicidad</a
             >
-          </div>
-          <div>
+          </li>
+          <li>
             <a
               href="https://smallbusiness.withgoogle.com/intl/es-419_pe/help/#!/"
               >Negocios</a
             >
-          </div>
-          <div>
+          </li>
+          <li>
             <a href="https://www.google.com/search/howsearchworks/?fg=1"
               >Cómo funciona la búsqueda</a
             >
-          </div>
-        </div>
+          </li>
+        </ul>
 
-        <div class="ctn right">
-          <div>
+        <ul class="footer-right">
+          <li>
             <a href="https://policies.google.com/privacy?hl=es-419&fg=1"
               >Privacidad</a
             >
-          </div>
-          <div>
+          </li>
+          <li>
             <a href="https://policies.google.com/terms?hl=es-419&fg=1"
               >Condiciones</a
             >
-          </div>
-          <div>
+          </li>
+          <li>
             <a href="#">Preferencias</a>
-          </div>
-        </div>
+          </li>
+        </ul>
       </div>
     </footer>
   </body>
