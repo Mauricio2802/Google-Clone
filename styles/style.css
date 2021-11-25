@@ -159,9 +159,12 @@ main .main-input-container .voice-icon {
 }
 .autor-info .autor {
   color: #000;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-  font-weight: 600;
+  font-family: sans-serif;
+  padding: 2px;
+}
+.autor-info .autor:hover {
+  color: #ffffff;
+  background-color: rgba(0, 0, 0, 0.9);
 }
 .autor-info .lang {
   margin-left: 5px;
